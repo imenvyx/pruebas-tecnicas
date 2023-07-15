@@ -5,8 +5,8 @@ function ListBook() {
   console.log(books.library);
   return (
     <div className="section-container">
-      <div className=" grid grid-cols-4">
-        {books.library.map((book) => (
+      <div className="grid grid-cols-4 grid-flow-row-dense gap-4">
+        {books.library.map(({book}) => (
           <BookCard key={book.ISBN} book={book} />
         ))}
       </div>

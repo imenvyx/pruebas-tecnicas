@@ -1,0 +1,25 @@
+.grid-book-card-container {
+  display: grid;
+  grid-template-columns: 20px 40% 1fr 20px;
+  grid-template-rows: 40px 1fr 50px;  
+}
+
+.grid-book-card-container h4{
+    line-height: 1.2;
+}
+
+#grid-book-card {
+  background-image: theme("colors.light.card_background");
+  grid-area: 2/1/-1/-1;
+}
+#grid-book-card-img {
+  grid-area: 1/2/3/2;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  box-shadow: 4px 9px 7px -3px rgba(252, 252, 252, 0.3);
+}
+#grid-book-card-text {
+  grid-area: 2/3/2/4;
+  padding: 1.5rem;
+}

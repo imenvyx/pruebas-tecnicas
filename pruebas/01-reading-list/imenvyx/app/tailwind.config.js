@@ -22,7 +22,12 @@ export default {
           primary: "#0A0814",
           background: "#010205",
           text: "#DFDEE6",
-          secondary: "#F1543D",
+          secondary: "#CDC7C1",
+           card_background: "linear-gradient( 270deg, rgb(0 0 0) 0%, rgb(37 37 40) 100% )",
+          //card_background: "linear-gradient(to right, #141e30, #243b55)",
+          
+         /*  card_background:
+            "linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% )", */
         },
         dark: {
           background: "#B3B8B5",
